@@ -1,0 +1,21 @@
+{
+  "name": "nullforge-light",
+  "displayName": "nullforge-light",
+  "description": "nullforge-light",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "nullforge",
+        "uiTheme": "vs",
+        "path": "./themes/nullforge-color-theme.json"
+      }
+    ]
+  }
+}
